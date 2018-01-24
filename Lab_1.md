@@ -39,7 +39,16 @@ The last step
 ---------------------
 ~~~
 
-## Tasks:
+## Flowchart Tasks:
+
+#### Fizzbuzz
+* starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
+
+#### Determin a students letter grade when given the %.
+
+#### Convert a tempature from C to F or vice versa.
+
+#### When give three numbers return the largest of them
 
 #### The game of Nim:
 * This game is played between two players.
@@ -51,3 +60,14 @@ The last step
 1. Create a flow chart for the optimal move for a player if there are exatly two piles.
 1. Can you merge these together to create a flowchart for an optimal move if there are two or less piles?  Please do so, if yes.
 1. What about if there are any number of piles.
+
+#### Find the sum of the first 100 numbers
+1. modify this to find the sum of the next 100 numbers when given a starting value.
+
+#### Find the nth fibonaci number
+* The 0th and the 1st fibonaci numbers are both 1.
+* All other fibonaci numbers equal the sum of the two before it.
+  So the 2nd fibonaci number is 2, because fib(0)+fib(1) = 1+1
+  Also the 10th fibonaci number is fib(8)+fib(9)
+
+#### Find the largest prime number less than a given number
