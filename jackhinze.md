@@ -52,7 +52,7 @@ Given a temperature
          |
          V
        /   \
-      /     \        Yes
+      /     \        Yes                               Yes
 /If temperature\----------> /If temperature is\------------------------------------+
 \is in Celsius /            \wanted in Celsius/                                    |  
          |                           |                                             |
