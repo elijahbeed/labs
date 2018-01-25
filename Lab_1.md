@@ -192,47 +192,6 @@ Insert third Number and set as z
 1. What about if there are any number of piles.
 
 #### Find the sum of the first 100 numbers
-~~~
------------------------
-start Var at 1  
------------------------       
-        |                     
-        V                     
-       / \                                                     
-      /   \                                                             
-/  Is percentage  \                                                   
-\    greater than 90% /----yes----->/pint A\ --------------------v                                   
-      \   /                                                      |
-       \ /                                                       |
-        |                                                        |         
-       no                                                        |                     
-        |                                                        |
-     /Is percentage\                                             |
- \less than 90% but greater\----yes---> /print B\ ---------------v
-        \than 80%/                                               |
-        |                                                        |       
-        no                                                       |
-        |                                                        |       
-  /Is percentage\                                                |
- \less than 80% but greater\----yes---> /print c\ ---------------v
-        \than 70%/                                               |
-        |                                                        |       
-        no                                                       |
-        |                                                        |
-   /Is percentage\                                               |
- \less than 70% but greater\----yes---> /print d\ ---------------v
-        \than 60%/                                               |
-        |                                                        |       
-        no                                                       | 
-        |                                                        |
-    /Is percentage\                                              |
- \less than 60% but greater\----yes---> /print f\ ---------------v
-        \than 0%/                                                |
-                                                                 |
-                                                             ----------------
-                                                                 End program
-                                                              -----------------
-~~~
 
 1. modify this to find the sum of the next 100 numbers when given a starting value.
 
