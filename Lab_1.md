@@ -44,13 +44,13 @@ The last step
 #### 1. Fizzbuzz
 * starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
 
-#### 1. Determin a students letter grade when given the %.
+#### 2. Determin a students letter grade when given the %.
 
-#### 1. Convert a tempature from C to F or vice versa.
+#### 3. Convert a tempature from C to F or vice versa.
 
-#### 1. When give three numbers return the largest of them
+#### 4. When give three numbers return the largest of them
 
-#### 1. The game of Nim:
+#### 5. The game of Nim:
 * This game is played between two players.
 * There are piles of stones, the number of stones in each pile is known.
 * Each turn a player can take any number of stones away from a single pile (they must take at least one.)
@@ -61,13 +61,13 @@ a. Create a flow chart for the optimal move for a player if there are exatly two
 a. Can you merge these together to create a flowchart for an optimal move if there are two or less piles?  Please do so, if yes.
 a. What about if there are any number of piles.
 
-#### 1. Find the sum of the first 100 numbers
+#### 6. Find the sum of the first 100 numbers
 b: modify this to find the sum of the next 100 numbers when given a starting value.
 
-#### 1. Find the nth fibonaci number
+#### 7. Find the nth fibonaci number
 * The 0th and the 1st fibonaci numbers are both 1.
 * All other fibonaci numbers equal the sum of the two before it.
   So the 2nd fibonaci number is 2, because fib(0)+fib(1) = 1+1
   Also the 10th fibonaci number is fib(8)+fib(9)
 
-#### 1. Find the largest prime number less than a given number
+#### 8. Find the largest prime number less than a given number
