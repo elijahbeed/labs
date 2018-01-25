@@ -43,12 +43,142 @@ The last step
 
 #### Fizzbuzz
 * starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
+~~~
+-----------------------
+Insert Desired Number   
+-----------------------       
+        |                     
+        V                     
+       / \                                                     |<-------------
+      /   \                                                    |             ^
+/  start a var at 1  \                                         |             |
+\              /                                               |           /  \
+      \   /                                                    |      \Add one to var/
+       \ / ----------------------------------------------------<             |       
+        |                                                                   No                        -------
+        |                                                       /                       \---------yes > End
+        |                                                       \Is Var euqal to desired Num/         -------
+  /Divide var by 2\                                             |
+ \Is there a remaineder?\----No---> /print fuzz\ ---------------^
+        v                                                       |
+        |                                                        |       
+        yes                                                     |
+        |                                                       |       
+   /Divide var by 3\                                            |
+   \Is there a remainder/-----no-------->/print buzz\------------
+          |                                                    ^
+         yes                                                    |
+           |                                                    |
+    /print Var\                                                 |
+    \           /-----------------------------------------------^
+                   
+~~~
 
 #### Determin a students letter grade when given the %.
+~~~
+-----------------------
+Insert Percentage  
+-----------------------       
+        |                     
+        V                     
+       / \                                                     
+      /   \                                                             
+/  Is percentage  \                                                   
+\    greater than 90% /----yes----->/pint A\ --------------------v                                   
+      \   /                                                      |
+       \ /                                                       |
+        |                                                        |         
+       no                                                        |                     
+        |                                                        |
+     /Is percentage\                                             |
+ \less than 90% but greater\----yes---> /print B\ ---------------v
+        \than 80%/                                               |
+        |                                                        |       
+        no                                                       |
+        |                                                        |       
+  /Is percentage\                                                |
+ \less than 80% but greater\----yes---> /print c\ ---------------v
+        \than 70%/                                               |
+        |                                                        |       
+        no                                                       |
+        |                                                        |
+   /Is percentage\                                               |
+ \less than 70% but greater\----yes---> /print d\ ---------------v
+        \than 60%/                                               |
+        |                                                        |       
+        no                                                       | 
+        |                                                        |
+    /Is percentage\                                              |
+ \less than 60% but greater\----yes---> /print f\ ---------------v
+        \than 0%/                                                |
+                                                                 |
+                                                             ----------------
+                                                                 End program
+                                                              -----------------
+~~~
 
 #### Convert a tempature from C to F or vice versa.
+~~~
+-----------------------
+Incerpt temprature  
+-----------------------       
+        |                     
+        V                     
+       / \                                                     
+      /   \                                                             
+/  ask if temp is in  \                                                   
+\    Fahrenheit? /----no----->/Multiply by 9/5 and add 32\ --------/Print equation with F\                                  
+      \   /                                                                    |
+       \ /                                                           ----------v-----
+        |                                                        >----- end program        
+       yes                                                       |     ---------------                
+        |                                                        |
+     / subtract 32\                                              |
+ \and times by 5/9/-------> /print solution with C\ -------------^
+        \/                                       
+      
+~~~
 
 #### When give three numbers return the largest of them
+~~~
+-----------------------
+Insert first Number and set as x
+-----------------------       
+        |                     
+        V 
+-----------------------
+Insert second Number and set as y
+-----------------------       
+        |                     
+        V 
+-----------------------
+Insert third Number and set as z
+-----------------------       
+        |                     
+        V                        
+       / \                                                     
+      /   \                                                             
+/  is x greater than y and z  \                                                   
+\                           /----yes----->/print x\ -------------v                                   
+      \   /                                                      |
+       \ /                                                       |
+        |                                                        |         
+       no                                                        |                     
+        |                                                        |
+     /             \                                             |
+ \ is y greater than x and z\----yes---> /print y\ --------------v
+    \        /                                                   |
+        |                                                        |       
+        no                                                       |
+        |                                                        |       
+  /\                                                             |
+ \ is z greater than y and x\----yes---> /print z\ --------------v
+                                                                 |
+                                                                 |
+                                                             ----------------
+                                                                 End program
+                                                              -----------------
+~~~
 
 #### The game of Nim:
 * This game is played between two players.
@@ -62,6 +192,48 @@ The last step
 1. What about if there are any number of piles.
 
 #### Find the sum of the first 100 numbers
+~~~
+-----------------------
+start Var at 1  
+-----------------------       
+        |                     
+        V                     
+       / \                                                     
+      /   \                                                             
+/  Is percentage  \                                                   
+\    greater than 90% /----yes----->/pint A\ --------------------v                                   
+      \   /                                                      |
+       \ /                                                       |
+        |                                                        |         
+       no                                                        |                     
+        |                                                        |
+     /Is percentage\                                             |
+ \less than 90% but greater\----yes---> /print B\ ---------------v
+        \than 80%/                                               |
+        |                                                        |       
+        no                                                       |
+        |                                                        |       
+  /Is percentage\                                                |
+ \less than 80% but greater\----yes---> /print c\ ---------------v
+        \than 70%/                                               |
+        |                                                        |       
+        no                                                       |
+        |                                                        |
+   /Is percentage\                                               |
+ \less than 70% but greater\----yes---> /print d\ ---------------v
+        \than 60%/                                               |
+        |                                                        |       
+        no                                                       | 
+        |                                                        |
+    /Is percentage\                                              |
+ \less than 60% but greater\----yes---> /print f\ ---------------v
+        \than 0%/                                                |
+                                                                 |
+                                                             ----------------
+                                                                 End program
+                                                              -----------------
+~~~
+
 1. modify this to find the sum of the next 100 numbers when given a starting value.
 
 #### Find the nth fibonaci number
