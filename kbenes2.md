@@ -5,7 +5,7 @@ Given a Student's Grade Percentage
                 V
               /   \
              /     \                             ~~~~~~~~~~~~~~~~
-       / If the percent is        \       Yes    Student's letter
+     / If the percent is          \       Yes    Student's letter
      \greater than or equal to 90%/ -----------> grade is "A"     -----------+
              \      /                            ~~~~~~~~~~~~~~~~            |
               \    /                                                         |
