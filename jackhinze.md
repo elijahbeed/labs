@@ -1,3 +1,4 @@
+Grade Percentage Problem
 ~~~
 ==================================
 Given a student's grade percentage
