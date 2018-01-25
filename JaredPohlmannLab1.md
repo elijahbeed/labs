@@ -85,9 +85,33 @@ Start
    ------------           
     Print out "F"
    ------------
-      ~~~        
+ ~~~        
              
-#### 3. Convert a tempature from C to F or vice versa.
+#### 8. Find the largest prime number less than a given number
 ~~~
+-----------------------
+      Start
+-----------------------
+        |
+        V
+   -----------------------------     
+    Select Largest Starting number
+    ------------------------------
+        |
+        V
+ ------------------------------       
+ Subtract 1 from Previous Number
+ -------------------------------   <-----------------------  |
+        |                                                    |
+        V                                                    |
+       / \                                                   |
+      /   \                Yes  -----------------------      |
+/  Is number    \---------------Print that Prime Number      |
+\  composite    /               -----------------------      |
+                                                             |
+      \   /                                                  |
+       \ /                                                   |
+        | No                                                 |
+        v-----------------------------------------------------
 
 
