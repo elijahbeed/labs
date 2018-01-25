@@ -95,10 +95,43 @@ end
 --------------
 
 
-Convert temp
+The game of nim
 
+one pile-take all but one stone
+two piles   -take all but one they take all of second pile you lose
+            -take all they take all but one you lose
+         X  -take all but two, they take the rest, go to one pile strategy you win
+            -take all but two, they take all but 
+         X  -take all but two they take all but two of second pile
+            -take 
+            -take all but
+           
+end= take all but 1
+Goal x=1
 
+one pile with n stones
+take n-1 stones
 
+two piles with n and m stones
+take n-2 stones
+    they take m stones 
+        taken n-1 stone x=1
+    they take new n stones
+        take m-1 stones x=1
+    they take m-2 stones stone count m=2 n=2
+        take n-1         stone count m=2 n=1
+            they take n  stone count  m=2
+                take m-1 win
+            they take m you lose n=1
+            they take m-1 stone count m=1 n=1
+    they take m-1
+        take new n
+    they take m-#>2
+    
+        
+        
+
+   
 
 
 
