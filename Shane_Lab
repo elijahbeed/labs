@@ -1,5 +1,5 @@
 ~~~
-________Fizzbuzz__________
+________Fizzbuzz_______________________________________________________________________________
 ---------------------------
 Start with the number one 
 and incerement by one to a 
@@ -16,17 +16,100 @@ number that is given.
             |
             | No
             |
-            V                     Yes     ------------ 
-/ If the number is divisible \ ---------> Print "Fizz"
-\ by 2                       /            ------------
+            V                     Yes                                      Yes      -------------------
+/ If the number is divisible \ ---------> / If the number is divisible \ ---------> Print "Fizz" & Buzz"
+\ by 2                       /            \ by both 2 and 3            /            -------------------
+          \   /                                       \   /
+           \ /                                         \ /
+            |                                           | 
+            | No                                        |   
+            |                  No                       |
+            |-------------------------------------------+
+            |
+            | 
+            |
+            |
+           / \
+          /   \                    Yes     -----------
+/ If the number is divisible \ --------- > Print "Buzz"
+\ by three.                  /             -----------
           \   /
            \ /
             |
             | No
             |
-            V                      Yes     -----------
-/ If the number is divisible \ --------- > Print "Buzz"
-\ by three.                  /             -----------
+            V
+        ------------
+        Print "Fizz"
+        ------------
+
+
+
+
+
+
+
+________Determine the students letter grade when given the %_______________________________________
+--------------------------
+Identify a student's grade
+percentage from 0-100%
+--------------------------
+            |
+            V
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: F
+ \ is between 0-59%       /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V      
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: D
+ \ is between 60-66%      /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V      
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: D+
+ \ is between 67-79%      /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V                 
+  {Continue process in 
+  incremements of 3% 
+  until 100% is reached}
+
+________Convert a temperature from C to F and vice versa_______________________________________           
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
            
            
            
