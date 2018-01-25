@@ -1,0 +1,228 @@
+~~~
+________Fizzbuzz_______________________________________________________________________________
+---------------------------
+Start with the number one 
+and incerement by one to a 
+number that is given.
+---------------------------
+            |
+            V
+           / \
+          /   \              Yes       -----------------
+ / If the number is not \ ---------->   Print the number
+ \ divisible by 2 or 3  /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V                     Yes                                      Yes      -------------------
+/ If the number is divisible \ ---------> / If the number is divisible \ ---------> Print "Fizz" & Buzz"
+\ by 2                       /            \ by both 2 and 3            /            -------------------
+          \   /                                       \   /
+           \ /                                         \ /
+            |                                           | 
+            | No                                        |   
+            |                  No                       |
+            |-------------------------------------------+
+            |
+            | 
+            |
+            |
+           / \
+          /   \                    Yes     -----------
+/ If the number is divisible \ --------- > Print "Buzz"
+\ by three.                  /             -----------
+          \   /
+           \ /
+            |
+            | No
+            |
+            V
+        ------------
+        Print "Fizz"
+        ------------
+
+
+
+
+
+
+
+________Determine the students letter grade when given the %_______________________________________
+--------------------------
+Identify a student's grade
+percentage from 0-100%
+--------------------------
+            |
+            V
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: F
+ \ is between 0-59%       /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V      
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: D
+ \ is between 60-66%      /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V      
+           / \
+          /   \              Yes         -----------------
+ / If the student's grade \ ---------->   Letter Grade: D+
+ \ is between 67-79%      /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V                 
+  {Continue process in 
+  incremements of 3% 
+  until 100% is reached}
+
+________Convert a temperature from C to F and vice versa_______________________________________ 
+
+                                                    --------
+                                                      Start
+                                                    --------
+                                                        |
+                                     ----------------------------------------
+                              Identify the temperature for conversion (numerical value)
+                                     ----------------------------------------
+                                                        |
+                                                        |
+                                                        V
+                                                       / \                                         
+              C > F                                   /   \                                     F > C
++------------------------------------/ Identify the type of conversion desired \ -----------------------------------------+
+|                                    \                                         /                                          |
+|                                                     \   /                                                               |
+|                                                      \ /                                                                |
+|                                                                                                                         |
+V                                                                                                                         V
+----------------------------                                                                    ----------------------------
+Subtract 32 from value                                                                               Multiply the value by 9
+----------------------------                                                                    ----------------------------
+|                                                                                                                         |
+V                                                                                                                         V
+----------------------------                                                                    ----------------------------
+Multiply new value by 5                                                                                Divide new value by 5
+----------------------------                                                                    ----------------------------
+|                                                                                                                         |
+V                                                                                                                         V
+----------------------------                                                                    ----------------------------
+Divide new value by 9                                                                                Add 32 to the new value
+----------------------------                                                                    ----------------------------
+|                                                                                                                         |
+V                                                                                                                         V
+----------------------------                                                                    ----------------------------
+Temperature in Fahrenheit is displayed                                                   Temperature in Celsius is displayed
+----------------------------                                                                    ----------------------------
+|                                                                                                                         |
+|                                                   ------                                                                |
++--------------------------------------------------> STOP <---------------------------------------------------------------+
+                                                    ------
+
+
+________When given three numbers, return the largest one_______________________________________ 
+
+----------------------------
+            Start
+----------------------------
+            |
+            V
+----------------------------
+Begin with three values
+----------------------------
+            |
+            V
+----------------------------
+Select one of the values
+---------------------------- 
+            |
+            V
+           / \
+          /   \              Yes     -----------------
+ / Is the value the  \ ---------->   Print the number
+ \ greatest of the 3 /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V              
+----------------------------
+Select a different value
+---------------------------- 
+            |
+            V
+           / \
+          /   \              Yes     -----------------
+ / Is the value the  \ ---------->   Print the number
+ \ greatest of the 3 /              ----------------- 
+          \   /
+           \ /
+            |
+            | No
+            |
+            V   
+----------------------------
+Select a different value
+---------------------------- 
+            |
+            V
+----------------------------
+Print the number (largest by default)
+----------------------------   
+            |
+            V
+----------------------------
+           Stop
+----------------------------
+
+
+
+
+
+
+
+
+
+
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+~~~

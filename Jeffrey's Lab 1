@@ -60,5 +60,24 @@ input grade
 The last step
 ---------------------
 
+Sum to 100
+-----------------------
+This is the first step   <-----+
+-----------------------        |
+        |                      |
+        V                      |
+       / \                     |
+      /   \                Yes |
+/  If something is true \ -----+
+\  and the day is       /
+   a Monday
+      \   /
+       \ /
+        | No
+        v
+---------------------
+The last step
+---------------------
+
 
 I did the two above and I troubleshot like 3 fizzbuzzes.
