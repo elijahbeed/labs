@@ -64,7 +64,7 @@ Start
         V                      
        / \                     
       /   \               Yes -------------
-/ Is the % between 70   \ -----Print out 'C"
+/ Is the % between 70  \ -----Print out 'C"
 \  and 80%             /      -------------
    
       \   /
@@ -85,5 +85,9 @@ Start
    ------------           
     Print out "F"
    ------------
-              
-    ~~~         
+      ~~~        
+             
+#### 3. Convert a tempature from C to F or vice versa.
+~~~
+
+
