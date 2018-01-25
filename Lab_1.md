@@ -57,9 +57,12 @@ The last step
 * The person who takes the last stone from the last remaining pile looses.
   
 a. Create a flow chart for the optimal move for a player if there is only one pile.
-a. Create a flow chart for the optimal move for a player if there are exatly two piles.
-a. Can you merge these together to create a flowchart for an optimal move if there are two or less piles?  Please do so, if yes.
-a. What about if there are any number of piles.
+
+b. Create a flow chart for the optimal move for a player if there are exatly two piles.
+
+c. Can you merge these together to create a flowchart for an optimal move if there are two or less piles?  Please do so, if yes.
+
+d. What about if there are any number of piles.
 
 #### 6. Find the sum of the first 100 numbers
 b: modify this to find the sum of the next 100 numbers when given a starting value.
