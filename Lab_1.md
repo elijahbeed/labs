@@ -66,7 +66,7 @@ import user number
           v                                                   |
           |                                                   |
  divide the number by 3                                       |
- is the remander = 0 ____>____no____>____Print "buzz"___>_____|
+ is there remander ______>____no____>____Print "buzz"___>_____|
           |                                                   |
           |                                                   |
           Yes                                                 |
