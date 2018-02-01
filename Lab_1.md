@@ -43,9 +43,76 @@ The last step
 
 #### 1. Fizzbuzz
 * starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
-
+~~~
+----------------------
+import user number
+---------------------
+         |
+         v
+        / \
+      /     \
+    /         \
+  /             \
+ divide the number by 2
+/ is there a remander ? __>____ no_>__Print "Fizz"____>_______
+\                   /                                         |
+  \                /                                          |
+        \    /                                                |
+          \/                                                  |
+          |                                                   |
+          |                                                   |
+          Yes                                                 |
+          |                                                   |
+          v                                                   |
+          |                                                   |
+ divide the number by 3                                       |
+ is the remander = 0 ____>____no____>____Print "buzz"___>_____|
+          |                                                   |
+          |                                                   |
+          Yes                                                 |
+          |                                                   |
+          v                                                   |
+          Print "number"___>________________>_________>_____> Break code
+ ~~~         
 #### 2. Determin a students letter grade when given the %.
-
+~~~
+---------------------
+import student grade
+---------------------
+        |
+        |
+        |
+is the grade in 100______>______Yes____>___Print "A"______|
+to 90                                                     |
+        |                                                 |
+        |                                                 |
+        NO                                                |
+        |                                                 |
+        |                                                 |
+is the grade in 90______>______Yes____>___Print "B"_______|
+to 80                                                     |
+        |                                                 |
+        |                                                 |
+        NO                                                |
+        |                                                 |
+        |                                                 |
+is the grade in 80______>______Yes____>___Print "C"_______|
+to 70                                                     |
+        |                                                 |
+        |                                                 |
+        NO                                                |
+        |                                                 |
+        |                                                 |
+is the grade in 70______>______Yes____>___Print "D"_______|
+to 60                                                     |
+        |                                                 |
+        |                                                 |
+        No                                                |
+        |                                                 |
+        |                                                 |
+        |                                                 |
+  Print "F"______>_________>____________>_______________>Break code
+  ~~~
 #### 3. Convert a tempature from C to F or vice versa.
 
 #### 4. When give three numbers return the largest of them
