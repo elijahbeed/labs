@@ -1,0 +1,190 @@
+Lab_1
+
+1.) FizzBuzz
+
+---------------------------------
+First Step: User imputs a number
+---------------------------------
+                |
+                |
+                V <-------------------------------------------------------------+
+/                                   \                                           |
+    Is the number divisible by 2?     ---[NO]                                   |
+\                                   /      |                                    |
+                                           |                                    |
+                |                          |                                    |
+              [YES]                        |                                    |
+                |                          |                                    |
+                V                          |                                    |
+/                                   \      |                                    |
+    Print "Fizz"                           |                                    |
+\                                   /      |                                    |
+                |                          |                                    |
+                |<-------------------------+                                    |
+                V                                                               |
+/                                   \                                           |
+    Is the number divisible by 3?    -----[NO]------------------+               |
+\                                   /                           |               |
+                |                                               |               |
+              [YES]                                             |               |
+                |                                               |               |
+                V                                               |               |
+/                                   \                           |               |
+    Print "Buzz"                                                |               |
+\                                   /                           |               |
+                |                                               |               |
+                |<----------------------------------------------+               |
+                V                                                               |
+/                                           \                                   |
+    Is the number not divisible by 2 or 3?  --------[NO]                        |
+\                                           /       |                           |
+                |                                   |                           |
+                [Yes]                               |                           |
+                |                                   |                           |
+                V                                   |                           |
+    /                   \                           |                           |
+        Print number                                |                           |
+    \                   /                           |                           |
+                | <---------------------------------+                           |
+                |                                                               |
+                V                                                               |
+/                                   \                                           |
+    Add 1 to number                 --------------------------------------------+
+\                                   /
+
+
+2.) Student Letter Grade
+
+-------------------------------------------
+    Identify Student Grade From 0%-100%
+-------------------------------------------
+                    |
+                    V
+/                                   \           /                           \
+    Is the grade 90% or higher?     ---[Yes]--->    Give the student an A
+\                                   /           \                           /
+                    |
+                   [No]
+                    |
+                    V
+/                                                   \           /                           \
+    Is the grade 80% or higher and lower than 90%?  ---[YES]--->    Give the student a B
+\                                                   /           \                           /
+                    |
+                   [NO]
+                    |
+                    V
+/                                                   \           /                           \
+    Is the grade 70% or higher and lower than 80%?  ---[YES]--->    Give the student a C
+\                                                   /           \                           /
+                    |
+                   [NO]
+                    |
+                    V
+/                                                   \           /                           \
+    Is the grade 60% or higher and lower than 70%?  ---[YES]--->    Give the student a D
+\                                                   /           \                           /
+                    |
+                   [NO]
+                    |
+                    V
+/                           \
+    Give the student an F
+\                           /
+
+3.) Temperature
+
+-------------------------------------------------
+    Identify a Value Representing Temperature
+-------------------------------------------------
+                    |
+                    V
+/                                       \           /                                                                   \
+    Is the temperature in Fahrenheit?   ---[YES]--->    Subtract 32 from the number and multiply the result by (5/9)
+\                                       /           \                                                                   /
+                    |
+                   [NO]
+                    |
+                    V
+/                                       \           /                                                                   \
+    Is the temperature in Celsius?      ---[YES]--->    Multiply the number by (9/5) and add 32 to the product
+\                                       /           \                                                                   /
+                    |
+                   [NO]
+                    |
+                    V
+/                                                   \
+    Scrap that number and move on with your life
+\                                                   /
+
+4.) Three Numbers
+
+-------------------------
+    Get Three Numbers
+-------------------------
+            |
+            V
+/                                                   \           /                                                 \        /         \
+Is the first number greater than the second number? ----[YES]-->Is the first number greater than the third number? -[YES]->Print 1st # 
+\                                                   /           \                                                 /        \         /
+            |                                                                       |
+            |                                                                       [NO]
+            |                                                                       |
+            [NO] <------------------------------------------------------------------+
+            |
+            V
+/                                                           \           /                       \
+    Is the second number greater than the third number?     ---[YES]-->     Print Second Number
+\                                                           /           \                       /
+            |
+            [NO]
+            |
+            V
+/                       \
+    Print third number
+\                       /
+
+6.) First 100 Numbers
+
+---------------------
+    Find a Number
+---------------------
+        |
+        |
+        V
+/                           \
+    Have a counter equal 1.
+\                           /
+        |
+        V
+/                                           \
+    Have your number equal the variable x
+\                                           /
+        |
+        | <-----------------------------------------+
+        V                                           |
+/                  \                                |
+    Save value x                                    |
+\                  /                                |
+        |                                           |
+        V                                           |
+/                   \                               |
+    Have x = x + 1                                  |
+\                   /                               |
+        |                                           |
+        V                                           |
+/                       \                           |
+    Add 1 to counter                                |
+\                       /                           |
+        |                                           |
+        V                                           |
+/                               \                   |
+    Does the counter equal 100? ---[NO]-------------+
+\                               /
+        |
+        [YES]
+        |
+        V
+/                                                       \
+    Add all saved values and print result. Then stop.
+\                                                       /

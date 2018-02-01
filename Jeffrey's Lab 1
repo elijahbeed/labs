@@ -1,0 +1,83 @@
+to convert from Celsius to Fahrenheit 
+    -----------------------
+    Take the input of the number to convert   <-----+
+    -----------------------        
+                       |   
+                       V 
+                      / \ 
+              /is this celsius?\
+           YES     \       /      NO-------------------+
+            |          \/                              |
+            |                                          |
+            |                                          |
+            V                                          V
+           / \                              /                       \
+  /Put it into this formula\           / Put the number into this formula\      
+ / "input number" x 18. + 32\           \   "input number" - 32 x .5556 /
+  \                        /                         \   /
+           \   /                                      \ /
+            \ /
+                         ---------------------
+                         The last step
+                         ---------------------
+                         
+                         
+                         
+-----------------------
+How to find a letter grade from percentage
+input grade
+                       
+-----------------------        
+        |                      
+        V                      
+       / \                     
+      /   \                         Yes 
+/Is the number between 100 and 80 \ ------------------------------------+
+\                                 /                                     |
+      \   /                                                             |
+       \ /                                                              |
+        | No                                                            |
+        |                                                        /            \       
+        |                                                       / is the number\   No
+        |                                                       \ in the 90s?  / ------------>|You got a B. Not bad|
+        V                                                        \            /
+ /            \                                                        \ /
+/ is the number\   Yes                                                  | Yes
+\ in the 60s?  / ---------------------------|You got a C|               V 
+ \            /                             |a good try |          /         \
+        No                                                     /you got an A!!!!!!\
+        |                                                         \  :O   :O   /
+        |                                                            \    /
+        V
+       /   \      No
+ /Is it below 60?\-------------> |You got a D, could be better.|
+       \   /
+         |  Yes
+         |
+         V
+|You got a F bro. srsly|
+---------------------
+The last step
+---------------------
+
+Sum to 100
+-----------------------
+This is the first step   <-----+
+-----------------------        |
+        |                      |
+        V                      |
+       / \                     |
+      /   \                Yes |
+/  If something is true \ -----+
+\  and the day is       /
+   a Monday
+      \   /
+       \ /
+        | No
+        v
+---------------------
+The last step
+---------------------
+
+
+I did the two above and I troubleshot like 3 fizzbuzzes.
