@@ -46,33 +46,35 @@ The last step
 ~~~
 ----------------------
 import user number
+n=1
 ---------------------
-         |
-         v
-        / \
-      /     \
-    /         \
-  /             \
- divide the number by 2
-/ is there a remander ? __>____ no_>__Print "Fizz"____>_______
-\                   /                                         |
-  \                /                                          |
-        \    /                                                |
-          \/                                                  |
-          |                                                   |
-          |                                                   |
-          Yes                                                 |
-          |                                                   |
-          v                                                   |
-          |                                                   |
- divide the number by 3                                       |
- is there remander ______>____no____>____Print "buzz"___>_____|
-          |                                                   |
-          |                                                   |
-          Yes                                                 |
-          |                                                   |
-          v                                                   |
-          Print "number"___>________________>_________>_____> Break code
+         |                _______>__________>________>__________________>_______|
+         v                |                                                     |
+        / \              Yes                                                    |
+      /     \            |                                                      v
+    /         \_<_No_<__does n = i______<_____n=n+1___<____<__                  |
+  / i= given number\                                          |                 |
+ divide the number by 2                                       A                 |
+/ is there a remander ? __>____ no_>__Print "Fizz"____>_______|                 |
+\                   /                                         |                 |
+  \                /                                          |                 v
+        \    /                                                A                 |
+          \/                                                  |                 |
+          |                                                   |                 |
+          |                                                   |                 |
+          Yes                                                 |                 |
+          |                                                   |                 |
+          v                                                   |                 v
+          |                                                   |                 |
+ divide the number by 3                                       |                 |
+ is there remander ______>____no____>____Print "buzz"___>_____|                 |
+          |                                                   |                 |
+          |                                                   |                 |
+          Yes                                                 A                 v
+          |                                                   |                 |
+          v                                                   |                 |
+          Print "number"___>________________>_________>_____> |                 |              
+                                                                          break code
  ~~~         
 #### 2. Determin a students letter grade when given the %.
 ~~~
