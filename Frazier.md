@@ -36,7 +36,7 @@ else if start%2==0 ---> print fizz    +     |         |
        | No                           |     |         |
        v                              |     |         |
 ------------------  Yes               |     |         |
-else if start%3=0 ----> print buzz    +     |         |
+else if start%3==0 ----> print buzz    +     |         |
 -----------------                     |     |         |
        |                              |     |         |
        v                              |     |         |
@@ -55,6 +55,25 @@ start=++            <-----------------+     |         |
 ------------------                                    |
 Print "done"       <----------------------------------+
 ------------------
+
+
+
+start=0;
+end=# given by user
+
+if (start<=end){
+   if (start%6==0){
+    print "fizzbuzz"}
+   if else (start%2==0){
+    print "fizz"}
+   if else (start%3==0){
+    print "buzz"}
+   else {
+   print start}
+ start=start+1;}   
+else {
+print done
+}
 
 
 
@@ -94,6 +113,19 @@ else print fail
 end
 --------------
 
+percent= user input
+
+if (percent>=90){
+    print "A"}
+if else (percent>=80){
+    print "B"}
+if else (percent>=70){
+    print "C"}
+if else (percent>=60){
+    print "D"
+else {
+    print "F"}
+    
 
 The game of nim
 
