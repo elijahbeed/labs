@@ -32,7 +32,7 @@ Set start number to 1
   --------------------                                      |
   Print out the number--------------------------------------+
   --------------------
-  ~~~
+  
   number = 1
 end = 100
 while(number<=end)
@@ -53,6 +53,7 @@ system.out.print(number)
 number = number + 1
 }
 }
+~~~
   #### 2. Determine a students letter grade when given the %.
   ~~~
 -----------------------
@@ -105,7 +106,28 @@ Start
    ------------           
     Print out "F"
    ------------
- ~~~        
+grade = 
+if(grade >= 90)
+{
+system.out.print("A")
+}
+else if( grade >=80)
+{
+system.out.print("B")
+}
+else if( grade >= 70)
+{
+system.out.print("C")
+}
+else if( grade >= 60)
+{
+system.out.print("D")
+}
+else()
+{
+system.out.print("F")
+}
+~~~   
              
 #### 8. Find the largest prime number less than a given number
 ~~~
