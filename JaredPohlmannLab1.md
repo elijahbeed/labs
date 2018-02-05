@@ -33,6 +33,26 @@ Set start number to 1
   Print out the number--------------------------------------+
   --------------------
   ~~~
+  number = 1
+end = 100
+while(number<=end)
+{
+if(number%2==0)
+{
+  system.out.print("Fizz")
+  number = number + 1
+}
+else if(number%3==0)
+{
+  system.out.print("Buzz")
+  number = number + 1
+}
+else()
+{
+system.out.print(number)
+number = number + 1
+}
+}
   #### 2. Determine a students letter grade when given the %.
   ~~~
 -----------------------
