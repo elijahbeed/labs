@@ -1,0 +1,50 @@
+### 1. Fizzbuzz Code
+number = 1
+end = 100
+while(number<=end)
+{
+if(number%2==0)
+{
+  system.out.print("Fizz")
+  number = number + 1
+}
+else if(number%3==0)
+{
+  system.out.print("Buzz")
+  number = number + 1
+}
+else()
+{
+system.out.print(number)
+number = number + 1
+}
+}
+
+### 2. Determine a student's letter grade when given %
+grade = 
+if(grade >= 90)
+{
+system.out.print("A")
+}
+else if( grade >=80)
+{
+system.out.print("B")
+}
+else if( grade >= 70)
+{
+system.out.print("C")
+}
+else if( grade >= 60)
+{
+system.out.print("D")
+}
+else()
+{
+system.out.print("F")
+}
+### 8. Find Largest prime number less than a given number
+prime = 23
+num = prime - 1
+while(num > 1)
+{
+if ( 
