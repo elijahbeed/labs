@@ -61,7 +61,7 @@ Set initial "number" to 1
 int givenMax=10
 int number=1
 for (i=0; i>=givenMax; i++, number++){ //sets counter i, stops when counter hits max iterations, after every runthrough increases both i and number by 1.
-  if (number%2==0 and number%3==0){
+  if (number%2==0 && number%3==0){
     System.out.println("FizzBuzz");
   }
   else if (number%2==0){
@@ -69,6 +69,9 @@ for (i=0; i>=givenMax; i++, number++){ //sets counter i, stops when counter hits
   }
   else if (number%3==0){
     System.out.println("Buzz");
+  }
+  else{
+    System.out.println(number);
   }
 }
 
