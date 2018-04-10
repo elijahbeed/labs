@@ -1,5 +1,5 @@
 Fizzbuzz by Piia:
-
+~~~
 ----------------------------
 Set initial "number" to 1
 ----------------------------
@@ -58,6 +58,7 @@ Set initial "number" to 1
 |                ----------------------------------------
 |                                    |
 +------------------------------------+
+~~~
 int givenMax=10
 int number=1
 for (i=0; i>=givenMax; i++, number++){ //sets counter i, stops when counter hits max iterations, after every runthrough increases both i and number by 1.
@@ -79,7 +80,7 @@ for (i=0; i>=givenMax; i++, number++){ //sets counter i, stops when counter hits
 
 
 CELSIUS-FAHRENHEIT by Piia
-
+~~~
 --------------------------
   given temperature
 --------------------------
@@ -94,6 +95,7 @@ CELSIUS-FAHRENHEIT by Piia
 print                 print
 temp*(9/5)+32         (temp-32)*(9/5)
 ----------------    ----------------------  
+~~~
 float temp=25.3;
 boolean isCelcius=true;
 if (isCelcius==true){
@@ -106,7 +108,7 @@ else{
 
 
 LARGEST OF THREE NUMBERS by Piia
-
+~~~
 -------------------------------
   given three numbers, called
   n1, n2 and n3
@@ -134,6 +136,7 @@ LARGEST OF THREE NUMBERS by Piia
   -----------------
     print n1
   -----------------
+ ~~~
 int n1 = 3;
 int n2 = 5;
 int n3 = 1;
